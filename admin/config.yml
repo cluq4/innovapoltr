@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: ConstanzaLuquez/innovapol-web
+  repo: cluq4/innovapoltr
   branch: main
   auth_scope: repo
 
