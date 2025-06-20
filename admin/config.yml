@@ -1,6 +1,7 @@
 
 backend:
-  name: auth0
+  name: git-gateway
+  branch: main
   auth_type: implicit
   app_id: DSITRxxLANGAnKthfByONecBcnaRGAO3
   domain: dev-5wn07l1qrj5bvdmp.us.auth0.com
