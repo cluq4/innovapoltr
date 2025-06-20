@@ -1,23 +1,14 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <title>Admin | Innovapol</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
+    <!-- Importamos el backend de Auth0 -->
+    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/auth0.js"></script>
+
+    <!-- Importamos Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </body>
 </html>
