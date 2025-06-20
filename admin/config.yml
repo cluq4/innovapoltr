@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: cluq4/innovapoltr
   branch: main
-  login: /admin/
 
 media_folder: "img/uploads"
 public_folder: "/img/uploads"
