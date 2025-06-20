@@ -1,7 +1,11 @@
 
 backend:
-  name: git-gateway
+  name: github
+  repo: cluq4/innovapoltr
   branch: main
+  site_domain: magnificent-alpaca-0a9784.netlify.app
+  base_url: https://magnificent-alpaca-0a9784.netlify.app
+  auth_endpoint: auth
 
 media_folder: "img/uploads"
 public_folder: "/img/uploads"
